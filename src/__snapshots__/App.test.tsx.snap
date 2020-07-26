@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot tests AddRow 1`] = `
+<div
+  className="sc-AxirZ dAVawm"
+>
+  <form>
+    <input
+      aria-label="button to add todo item"
+      autoFocus={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="E.g. do a tech test"
+      style={
+        Object {
+          "marginRight": 10,
+        }
+      }
+      type="text"
+      value="E.g. do a tech test"
+    />
+    <button
+      className="sc-AxiKw jaHFcF"
+      onClick={[Function]}
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</div>
+`;
+
+exports[`snapshot tests InputForm 1`] = `
+<form>
+  <input
+    aria-label="test label"
+    autoFocus={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="test placeholder"
+    style={
+      Object {
+        "marginRight": 10,
+      }
+    }
+    type="text"
+    value="test placeholder"
+  />
+  <button
+    className="sc-AxiKw jaHFcF"
+    onClick={[Function]}
+    type="submit"
+  >
+    test button
+  </button>
+</form>
+`;
+
+exports[`snapshot tests todoRow 1`] = `
+<div
+  style={
+    Object {
+      "transform": " scale(1)",
+    }
+  }
+>
+  <div
+    className="sc-AxirZ dAVawm"
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+  >
+    <input
+      defaultChecked={false}
+      onChange={[Function]}
+      style={
+        Object {
+          "marginRight": 10,
+        }
+      }
+      type="checkbox"
+    />
+    <h2
+      checked={false}
+      className="sc-AxhCb fvWCRK"
+      onClick={[Function]}
+    >
+      test description
+    </h2>
+    <button
+      aria-label="Remove a todo item"
+      className="sc-AxiKw jaHFcF"
+      onClick={[Function]}
+    >
+      remove
+    </button>
+  </div>
+</div>
+`;
