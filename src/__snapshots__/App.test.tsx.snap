@@ -4,23 +4,25 @@ exports[`snapshot tests AddRow 1`] = `
 <div
   className="sc-AxirZ dAVawm"
 >
-  <form>
+  <form
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
     <input
       aria-label="button to add todo item"
       autoFocus={true}
+      className="sc-AxiKw gVLkSS"
       onBlur={[Function]}
       onChange={[Function]}
       placeholder="E.g. do a tech test"
-      style={
-        Object {
-          "marginRight": 10,
-        }
-      }
       type="text"
-      value="E.g. do a tech test"
+      value=""
     />
     <button
-      className="sc-AxiKw jaHFcF"
+      className="sc-AxhCb jnEOsd"
       onClick={[Function]}
       type="submit"
     >
@@ -31,23 +33,25 @@ exports[`snapshot tests AddRow 1`] = `
 `;
 
 exports[`snapshot tests InputForm 1`] = `
-<form>
+<form
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
   <input
     aria-label="test label"
     autoFocus={true}
+    className="sc-AxiKw gVLkSS"
     onBlur={[Function]}
     onChange={[Function]}
     placeholder="test placeholder"
-    style={
-      Object {
-        "marginRight": 10,
-      }
-    }
     type="text"
-    value="test placeholder"
+    value=""
   />
   <button
-    className="sc-AxiKw jaHFcF"
+    className="sc-AxhCb jnEOsd"
     onClick={[Function]}
     type="submit"
   >
@@ -60,6 +64,8 @@ exports[`snapshot tests todoRow 1`] = `
 <div
   style={
     Object {
+      "display": "flex",
+      "minHeight": 70,
       "transform": " scale(1)",
     }
   }
@@ -69,30 +75,60 @@ exports[`snapshot tests todoRow 1`] = `
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
-    <input
-      defaultChecked={false}
-      onChange={[Function]}
+    <form
       style={
         Object {
-          "marginRight": 10,
+          "display": "none",
         }
       }
-      type="checkbox"
-    />
-    <h2
-      checked={false}
-      className="sc-AxhCb fvWCRK"
-      onClick={[Function]}
     >
-      test description
-    </h2>
-    <button
-      aria-label="Remove a todo item"
-      className="sc-AxiKw jaHFcF"
-      onClick={[Function]}
+      <input
+        aria-label="button to update item"
+        autoFocus={true}
+        className="sc-AxiKw gVLkSS"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="test description"
+        type="text"
+        value="test description"
+      />
+      <button
+        className="sc-AxhCb jnEOsd"
+        onClick={[Function]}
+        type="submit"
+      >
+        update
+      </button>
+    </form>
+    <div
+      className="sc-AxirZ dAVawm"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
     >
-      remove
-    </button>
+      <input
+        className="sc-AxiKw gVLkSS"
+        defaultChecked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <h2
+        checked={false}
+        className="sc-AxhUy iXfeIL"
+        onClick={[Function]}
+      >
+        test description
+      </h2>
+      <button
+        aria-label="Remove a todo item"
+        className="sc-AxhCb jnEOsd"
+        onClick={[Function]}
+      >
+        remove
+      </button>
+    </div>
   </div>
 </div>
 `;

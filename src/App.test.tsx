@@ -52,6 +52,7 @@ describe('input form test', () => {
     it('InputForm', () => {
         const result = render(
             <InputForm
+                clearinput={false}
                 blurCallback={(e) => {}}
                 submitCallBack={(e) => {}}
                 buttonName="test button"
