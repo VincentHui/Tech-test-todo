@@ -8,3 +8,6 @@ yarn start
 
 testing;
 yarn test
+
+Now hosted on surge at 
+https://tech-test-todo.surge.sh/
