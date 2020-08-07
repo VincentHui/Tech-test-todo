@@ -1,6 +1,6 @@
 ## Todo Tech test
 
-[this is a preview](https://git-repo-img.s3.eu-west-2.amazonaws.com/todo.png)
+![this is a preview](https://git-repo-img.s3.eu-west-2.amazonaws.com/todo.png)
 
 this is a tech test that uses react-redux, react spring, typescript to implement a simple todo list.
 
